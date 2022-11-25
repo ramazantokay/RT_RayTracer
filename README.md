@@ -36,7 +36,7 @@ make all
 then, you can use the RayTracer with this command
 
 ```
-./raytracer <inputs/scene_file.xml>
+./raytracer <sample_scenes/scene_file.xml>
 ```
 It will render the scene and save it in its current directory with ppm format.
 
