@@ -1,4 +1,4 @@
-# RayTracer
+# RT RayTracer
 
 This is a basic multi-threaded Ray Tracer implementation for CENG477 Computer Graphics course. It is fast and has OOP features.
 
