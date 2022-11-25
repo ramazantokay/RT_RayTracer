@@ -40,4 +40,30 @@ then, you can use the RayTracer with this command
 ```
 It will render the scene and save it in its current directory with ppm format.
 
-# Some example scenes
+# My Example scenes
+
+**David Statue**
+
+![David](/assets/david.png)
+
+**Utah Teapot METU CENG compositon**
+
+![Utah Teapot Composition](/assets/UtahTeapotMugCENG.png)
+
+**Utah Teapot Reflection**
+
+![Utah Teapot Reflection](/assets/UtahTeapotReflection.png)
+
+# Some provided scene 
+
+**Dragon**
+
+![Dragon](/assets/dragon_lowres.png)
+
+**Marbles**
+
+![Marbles](/assets/marbles.png)
+
+**Mirror Spheres**
+
+![Mirror Spheres](/assets/mirror_spheres.png)
