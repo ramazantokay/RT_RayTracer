@@ -48,7 +48,6 @@ Vec3f Renderer::ray_color(const Ray &ray, int depth)
         HitRecord temp_hr;
         if (sphere.hit(ray, 0.000001, infinity, temp_hr))
         {
-            // std::cout << "HITTTTTTTT"<<std::endl;
             if (temp_hr.t < hit_record.t - 0.000001 && temp_hr.t > 0.0f)
             {
                 hit_record = temp_hr;
