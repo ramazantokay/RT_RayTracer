@@ -65,11 +65,11 @@ int main(int argc, char *argv[])
 
         delete[] pixels;
 
-        write_ppm(("my_out/" + image.image_name).c_str(), image_arr, width, height);
+        write_ppm((image.image_name).c_str(), image_arr, width, height);
 
         delete[] image_arr;
 
-        std::cout << "my_out/" + image.image_name << " is saved" << std::endl;
+        std::cout << image.image_name << " is saved" << std::endl;
         print_time_diff(std::cout, start_time, end_time);
         std::cout << std::endl;
     }
